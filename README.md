@@ -21,7 +21,7 @@
 - `jsx` 문법으로 아래처럼 사용한다.
 
 ```jsx
-<Header title="SungWoon"></Header>
+<Header name="SungWoon"></Header>
 
 function Header({name}){
 	<h1>나의 이름은 {name}입니다!</h1>
