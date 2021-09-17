@@ -1,4 +1,5 @@
 # 문성운 201840117
+
 ## [09월 15일]
 
 ## 1. `Props` 란?
@@ -20,13 +21,13 @@
 - `jsx` 문법으로 아래처럼 사용한다.
 
 ```jsx
-<Header title="WEB" sub="WorldWideWeb"></Header>
+<Header title="SungWoon"></Header>
 
 function Header({name}){
 	<h1>나의 이름은 {name}입니다!</h1>
 }
 
-//출력결과 : 나의 이름은 SungWWoon입니다!
+//출력결과 : 나의 이름은 SungWoon입니다!
 ```
 
 - 이런식으로 컴포넌트를 호출할때 데이터를 넘겨주어 매개변수처럼 사용하는 방법이다.
