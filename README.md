@@ -1,4 +1,35 @@
 # 문성운 201840117
+## [09월 15일]
+
+## 1. `Props` 란?
+
+- 리액트의 `props`는
+
+```
+1. <Header></Header>
+
+2. <Header name="SungWoon"></Header>
+```
+
+1번 처럼만 사용가능했던 `Header`컴포넌트를, **2번 방법처럼 `App`컴포넌트에서 값을 직접 정의해서 넘겨주는 방법**
+
+> ***즉, props란 컴포넌트 끼리 값을 전달하는 수단이다.***
+
+## 2. Props 사용법
+
+- `jsx` 문법으로 아래처럼 사용한다.
+
+```jsx
+<Header title="WEB" sub="WorldWideWeb"></Header>
+
+function Header({name}){
+	<h1>나의 이름은 {name}입니다!</h1>
+}
+
+//출력결과 : 나의 이름은 SungWWoon입니다!
+```
+
+- 이런식으로 컴포넌트를 호출할때 데이터를 넘겨주어 매개변수처럼 사용하는 방법이다.
 
 ## [09월 08일]
 
